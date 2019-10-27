@@ -28,7 +28,7 @@ spec:
       - args:
         - --memcached-service=
 #        - --git-url=https://dmitri-at-next:$(GITHUBTOKEN)@github.com/dmitri-at-next/friendly-apps.git
-        - --git-poll-interval=15s
+        - --git-poll-interval=1m
         - --git-timeout=60s
         - --git-branch=master
         - --git-secret=false
