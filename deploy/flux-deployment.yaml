@@ -31,7 +31,6 @@ spec:
         - --git-poll-interval=15s
         - --git-timeout=60s
         - --git-branch=master
-        - --git-readonly=true
         - --git-secret=false
         image: docker.io/fluxcd/flux:1.15.0
         env:
